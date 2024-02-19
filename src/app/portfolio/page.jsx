@@ -40,11 +40,11 @@ const portfolio = [
   },
   {
     name: "Online Shop Website",
-    imageUrl: "/webShop.jpg",
+    imageUrl: "/shopWeb.jpg",
     desc: "Online shop website has several pages including Home, Shopping cart, Checkout page, and Payment using Midtrans Snap. also have authentication (Login Admin), Admin can manage category data, product data and transaction data.",
-    tech: "Frontend : Next js, Backend : Express js, Database : MongoDB",
+    tech: "Frontend : Next js & Typescript, Backend : Laravel, Database : MySQL",
     type: "web",
-    demo: "https://frontend-shop-app.vercel.app",
+    demo: "https://project-shop-frontend.vercel.app",
     download: "",
   },
   {
