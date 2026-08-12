@@ -4,10 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 const benefits = [
-  "Backend : Laravel, Express js & Flask",
+  "Backend : Laravel, Express js, FastAPI & Go",
   "Frontend : React js & Next js",
   "Mobile App : React Native",
-  "Desktop : React with Electron js",
   "Database : MySQL, PostgreSQL & MongoDB",
 ];
 
@@ -19,7 +18,7 @@ export default function Home() {
           <div className="mx-auto flex max-w-2xl flex-col gap-16 bg-white/5 px-6 py-16 ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20">
             <Image
               className="h-96 w-full flex-none rounded-2xl object-cover shadow-xl lg:aspect-square lg:h-auto lg:max-w-sm"
-              src="/myProfile.jpg"
+              src="/photoProfile.png"
               width={800}
               height={475}
               alt="profile"
@@ -29,9 +28,7 @@ export default function Home() {
                 Ahmad Faisal
               </h2>
               <p className="mt-6 text-lg leading-8 text-white">
-                I'm an experienced full-stack developer skilled in React JS and
-                Node JS, with expertise in various databases like MongoDB,
-                MySQL, and PostgreSQL.
+                I'm a Full Stack Developer with 5+ years of experience designing, building, and maintaining scalable web applications and backend systems. My expertise includes developing RESTful APIs, integrating third-party services, optimizing databases, and delivering reliable software solutions using Laravel, React.js, Next.js, Go, and Python.
               </p>
               <h4 className="mt-10 text-xl tracking-tight text-white sm:text-xl">
                 Skills
