@@ -67,7 +67,7 @@ export default function Portfolio() {
             Portfolio
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Several projects that I have made.
+            
           </p>
         </div>
         <ul
