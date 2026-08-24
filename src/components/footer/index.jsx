@@ -2,22 +2,23 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div>
-      <footer
-        className="relative mt-16 sm:mt-20"
-        aria-labelledby="footer-heading"
-      >
-        <h2 id="footer-heading" className="sr-only">
-          Footer
-        </h2>
-        <div className="mx-auto max-w-7xl px-6 pb-8 lg:px-8">
-          <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
-            <p className="text-xs leading-5 text-gray-400">
-              &copy; 2026 Ahmad Faisal Portfolio. All rights reserved.
-            </p>
-          </div>
+    <footer
+      className="relative mt-16 border-t border-slate-200 bg-slate-50/50 sm:mt-20"
+      aria-labelledby="footer-heading"
+    >
+      <h2 id="footer-heading" className="sr-only">
+        Footer
+      </h2>
+      <div className="mx-auto max-w-7xl px-6 py-8 lg:px-8">
+        <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
+          <p className="text-sm leading-5 text-slate-500">
+            &copy; 2026 Ahmad Faisal Portfolio. All rights reserved.
+          </p>
+          <p className="text-sm text-slate-400">
+            Built with Next.js & Tailwind CSS
+          </p>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
   );
 }
